@@ -1,12 +1,22 @@
 [
  {
   "op": "add",
-  "path": "/definitions/Listeners/properties/Protocol/enum",
+  "path": "/definitions/Listeners/properties/Protocol/enumCaseInsensitive",
   "value": [
-   "HTTP",
-   "HTTPS",
-   "TCP",
-   "SSL"
+   "http",
+   "https",
+   "tcp",
+   "ssl"
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/definitions/Listeners/properties/InstanceProtocol/enumCaseInsensitive",
+  "value": [
+   "http",
+   "https",
+   "tcp",
+   "ssl"
   ]
  }
 ]
